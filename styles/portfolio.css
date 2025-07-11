@@ -53,9 +53,13 @@ nav ul a{
 /* Banner styles */
 .bannet-content{
    text-align: justify;
+   margin-right: 10px;
+
 }
 .banner{
     background-image: url(../Assets/Hero-bg.png);
+    /* margin-right: 50px; */
+    /* margin-left: 20px; */
 }
 .bannet-content{
     display: flex;
@@ -64,4 +68,45 @@ nav ul a{
 .align{
     display: flex;
     justify-content: center;
+}
+.button-stay{
+    text-align: center;
+}
+
+
+
+
+main{
+    background-color: #feffff;
+    height: 380px;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.leftcection{
+border: none;
+width: 47%;
+}
+.rightsection{
+border: 1px solid #4E47FF;
+width: 47%;
+height: 300px;
+width: 300px;
+}
+main section button{
+    margin-top: 20px;
+    border: 0;
+    color: white;
+    width: 270px;
+    height: 56px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font size:20px;
+    
+    
+    
 }
