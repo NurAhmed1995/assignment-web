@@ -19,6 +19,7 @@
     padding: 10px 20px;
     border-radius: 5%;
     border: none;
+    justify-content: center;
 }
 
 
@@ -55,4 +56,12 @@ nav ul a{
 }
 .banner{
     background-image: url(../Assets/Hero-bg.png);
+}
+.bannet-content{
+    display: flex;
+    justify-content: center;
+}
+.align{
+    display: flex;
+    justify-content: center;
 }
